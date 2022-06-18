@@ -1,0 +1,75 @@
+body{
+    
+    min-width: 100vh;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+video{
+
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+
+    width: 80%;
+    min-height:80vh ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    gap: 1;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container section{
+
+    width: 30%;
+    height: 400px;
+    border-style: solid;
+    position: relative;
+
+}
+
+/*register form styling */
+
+.container .registerForm{
+
+    background: rgba(83, 83, 83, 0.13);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(128, 128, 128, 0.247);
+    backdrop-filter: blur(10px);
+    border: 2px solid purple;
+
+}
+
+.container .registerForm form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 70%;
+    gap: 10px;
+}
+
+.container .registerForm form input{
+
+    width: 80%;
+    height: 40px;
+}
+

@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+
+    width: 80%;
+    min-height:80vh ;
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    gap: 1;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container section{
+
+    width: 30%;
+    height: 400px;
+    border-style: solid;
+    position: relative;
+
+}
+
+.container .loginForm{
+
+    background: rgba(83, 83, 83, 0.13);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(128, 128, 128, 0.247);
+    backdrop-filter: blur(10px);
+    border: 2px solid purple ;
+    
+}
+
+
+.container .loginForm form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 70%;
+    gap: 10px;
+}
+
+.container .loginForm form input{
+
+    width: 95%;
+    height: 40px;
+}
+
+.container .loginForm form a{
+
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    bottom: 20px;
+    background: rgb(253, 2, 2);
+    color: white;
+    border: solid 1px white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container .loginForm label{
+    color:white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.container .loginForm a{
+
+    width: 100px;
+    height: 50px;
+    background: red;
+    color: white;
+}
